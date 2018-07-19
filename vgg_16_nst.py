@@ -15,11 +15,13 @@ from scipy.misc import imsave
 height = 512
 width = 512
 
+#Enter the path of content image i.e. image you would like the characteristics to be transferred to. 
 content_image_path = 'sloth.jpg'
 content_image = Image.open(content_image_path)
 content_image = content_image.resize((width, height))
 content_image
 
+#Enter the path of style image i.e. image you would like to use as your style.
 style_image_path = 'apple_sketch.jpg'
 style_image = Image.open(style_image_path)
 style_image = style_image.resize((width, height))
