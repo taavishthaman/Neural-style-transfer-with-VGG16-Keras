@@ -1,7 +1,7 @@
 # Neural-style-transfer-with-VGG16-Keras
 Keras implementation of neural style transfer [Gatys et. al. 2015]
 
-Neural style transfer is a method of transferring characteristics of an image to another image using a pretrained deep convolutional neural network like VGG16.
+Neural style transfer is a method of transferring characteristics of an image to another image using a pretrained deep convolutional neural network like VGG16. Essentially same priciples use by popular mobile app Prisma.
 
 An example of Taj Mahal painted in the style of Van Gogh's "Starry Night".
 ![starry_taj](https://user-images.githubusercontent.com/40840427/42915965-62e27bb8-8b20-11e8-8644-2dddf0741c0d.jpg)
